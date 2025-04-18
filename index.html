@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Buy Clothes That Fit</title>
-      <style>
-            body {
-                  margin: 0;
-                  font-family: system-ui, sans-serif;
-                  background: #f9f9f9;
-                  color: #222;
-            }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Clothes That Fit</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
 
-            main {
-                  max-width: 600px;
-                  margin: auto;
-                  padding: 2rem 1rem;
-            }
+    main {
+      max-width: 700px;
+      margin: auto;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
 
-            header {
-                  text-align: center;
-                  margin-bottom: 2rem;
-            }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      color: #ff5e5e;
+      text-shadow: 2px 2px 0 #000;
+    }
 
-            h1 {
-                  font-size: 2rem;
-                  margin: 0;
-            }
+    .content p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      line-height: 1.4;
+    }
 
-            .content p {
-                  font-size: 1.15rem;
-                  margin-bottom: 1.5rem;
-            }
+    .content p:nth-child(odd) {
+      color: #ffd700;
+    }
 
-            footer {
-                  text-align: center;
-                  margin-top: 3rem;
-                  font-size: 0.85rem;
-                  color: #888;
-            }
-      </style>
+    .content p:nth-child(even) {
+      color: #87cefa;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer span {
+      color: #ff5e5e;
+    }
+  </style>
 </head>
-
 <body>
-      <main>
-            <header>
-                  <h1>BuyClothesThatFit.com</h1>
-            </header>
+  <main>
+    <h1>BuyClothesThatFit.com</h1>
 
-            <section class="content">
-                  <p>
-                        I thought clothes were just uncomfortable. Shirts too short. Sleeves off. Always adjusting.
-                  </p>
+    <section class="content">
+      <p>
+        Your shirt doesn’t fit. We can all tell.
+      </p>
+      <p>
+        That constant tug? Yeah, it's not subtle.
+      </p>
+      <p>
+        Try a tall. Try a different cut. Do literally anything.
+      </p>
+      <p>
+        You're not a cartoon. Clothes can fit your body.
+      </p>
+      <p>
+        You just have to stop being stubborn.
+      </p>
+    </section>
 
-                  <p>
-                        Then I tried a tall size.
-                  </p>
-
-                  <p>
-                        It fit. Like, actually fit.
-                  </p>
-
-                  <p>
-                        If your clothes never feel quite right, maybe it’s not you.
-                  </p>
-            </section>
-
-            <footer>
-                  <p>© 2025 BuyClothesThatFit.com</p>
-            </footer>
-      </main>
+    <footer>
+      <p><span>©</span> 2025 BuyClothesThatFit.com — Seriously, fix it.</p>
+    </footer>
+  </main>
 </body>
-
 </html>
