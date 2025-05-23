@@ -1,0 +1,14 @@
+---
+deployment:
+  tasks:
+    # 1. Ensure the Node.js binaries are on the PATH
+    - export PATH=/opt/cpanel/ea-nodejs18/bin:$PATH
+    # 2. Change into your repo directory (usually the top-level)
+    - cd /home/mdeanme/repositories/BuyClothesThatFit.com
+    # 3. Install dependencies
+    #- npm install
+    # 4. Run your build
+    #- npm run build
+    # 5. Copy the built output to your web root (adjust path as needed)
+    - export DEPLOYPATH=/home/mdeanme/public_html/sites/buyclothesthatfit
+    - cp -R index.html $DEPLOYPATH
